@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="register">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="enter_username">Masukkan nama pengguna</string>
+    <string name="enter_password">Masukkan kata sandi</string>
+    <string name="click_here_to_register">Klik di sini untuk mendaftar</string>
+    <string name="no_users_found">Tidak ada pengguna lain</string>\
+    <string name="write_a_message">Tulis Pesan Anda</string>
+</resources>

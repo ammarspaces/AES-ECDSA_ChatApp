@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bruh.chatapp.Daftar"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="#403807"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="365dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="nama"
+        android:hint="Isi Nama"
+        android:background="#FCFCFC"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textColorHint="#D3D3D3"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="365dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="email"
+        android:hint="Isi Email"
+        android:background="#FFFFFF"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textColorHint="#D3D3D3"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="363dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="password"
+        android:hint="Isi Password"
+        android:background="#FFFFFF"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textColorHint="#D3D3D3"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/register" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="login"
+        android:gravity="center"
+        android:text="Kembali ke laman masuk"
+        android:textColor="#403807"
+        android:textSize="20sp" />
+
+</LinearLayout>
